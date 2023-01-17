@@ -1,0 +1,37 @@
+.container-contato{
+    padding-top: 100px;
+    padding:  20px auto;
+    align-items: center;
+    text-align: center;
+}
+.contato-mapa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo-sessao{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    padding: 40px;
+}
+.lista-medicos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.lista-medicos li {
+    list-style: none;
+    max-width: 300px;
+    padding: 10px 20px;
+}
+
+.lista-medicos li img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
